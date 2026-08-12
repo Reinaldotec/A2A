@@ -1,123 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://a2a-protocol.org/latest/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/announcing-1.0/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/announcing-1.0/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/community/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/community/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/definitions/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/definitions/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/partners/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/partners/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/roadmap/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/roadmap/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/specification/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/specification/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/whats-new-v1/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/whats-new-v1/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/sdk/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/community/jest-require-hook/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/sdk/python/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/sdk/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/topics/a2a-and-mcp/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/sdk/python/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/topics/agent-discovery/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/topics/a2a-and-mcp/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/topics/custom-protocol-bindings/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/topics/agent-discovery/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/topics/enterprise-ready/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/topics/custom-protocol-bindings/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/topics/extension-and-binding-governance/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/topics/enterprise-ready/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/topics/extensions/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/topics/extension-and-binding-governance/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/topics/key-concepts/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/topics/extensions/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/topics/life-of-a-task/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/topics/key-concepts/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/topics/multi-tenancy/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/topics/life-of-a-task/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/topics/streaming-and-async/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/topics/multi-tenancy/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/topics/what-is-a2a/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/topics/streaming-and-async/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/tutorials/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/topics/what-is-a2a/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/tutorials/python/1-introduction/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/tutorials/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/tutorials/python/2-setup/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/tutorials/python/1-introduction/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/tutorials/python/3-agent-skills-and-card/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/tutorials/python/2-setup/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/tutorials/python/4-agent-executor/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/tutorials/python/3-agent-skills-and-card/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/tutorials/python/5-start-server/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/tutorials/python/4-agent-executor/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/tutorials/python/6-interact-with-server/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/tutorials/python/5-start-server/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/tutorials/python/7-streaming-and-multiturn/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/tutorials/python/6-interact-with-server/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://a2a-protocol.org/latest/tutorials/python/8-next-steps/</loc>
+         <loc>https://reinaldotec.github.io/A2A/latest/tutorials/python/7-streaming-and-multiturn/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://reinaldotec.github.io/A2A/latest/tutorials/python/8-next-steps/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
 </urlset>
