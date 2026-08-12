@@ -1,0 +1,13 @@
+{
+  "name": "@reinaldotec/jest-require-hook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ESLint rule requiring Jest setup and teardown code to be placed inside lifecycle hooks.",
+  "main": "require-hook.js",
+  "scripts": {
+    "test": "node require-hook.test.js"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
+}

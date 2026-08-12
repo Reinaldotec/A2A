@@ -42,7 +42,8 @@ jobs:
       contents: write
       actions: read
 
-    if: github.repository == 'a2aproject/A2A'
+    # Keep the upstream guard while allowing the user-owned fork to publish its own Pages site.
+    if: github.repository == 'a2aproject/A2A' || github.repository == 'Reinaldotec/A2A'
 
     steps:
       - name: Checkout Code
