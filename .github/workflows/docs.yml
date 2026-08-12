@@ -86,7 +86,14 @@ jobs:
           # Install protoc
           PROTOC_VERSION="28.3"
           PROTOC_ZIP="protoc-${PROTOC_VERSION}-linux-x86_64.zip"
-          curl -fsSL -o /tmp/protoc.zip "https://github.com/protocolbuffers/protobuf/releases/download/v${PROTOC_VERSION}/${PROTOC_ZIP}"
+          for attempt in 1 2 3 4 5; do
+            if curl --fail --show-error --location --retry 3 --retry-delay 5 -o /tmp/protoc.zip "https://github.com/protocolbuffers/protobuf/releases/download/v${PROTOC_VERSION}/${PROTOC_ZIP}"; then
+              break
+            fi
+            echo "protoc download attempt ${attempt} failed; retrying..."
+            sleep 10
+          done
+          test -s /tmp/protoc.zip
           sudo unzip -q /tmp/protoc.zip -d /usr/local
           rm /tmp/protoc.zip
 
