@@ -8,6 +8,7 @@ on:
       - ".github/workflows/docs.yml"
       - "scripts/deploy_root_files.sh"
       - "scripts/build_docs.sh"
+      - "scripts/deploy_mike_with_retry.sh"
       - "requirements-docs.txt"
       - "mkdocs.yml"
       - "docs/**"
@@ -20,6 +21,7 @@ on:
       - ".github/workflows/docs.yml"
       - "scripts/deploy_root_files.sh"
       - "scripts/build_docs.sh"
+      - "scripts/deploy_mike_with_retry.sh"
       - "requirements-docs.txt"
       - "mkdocs.yml"
       - "docs/**"
@@ -34,6 +36,12 @@ on:
         description: 'Version to deploy to (e.g., v1.0.0)'
         required: true
         default: 'dev'
+
+# Only one job may update gh-pages at a time. This prevents fetch-first races
+# when a push, release, and manual deployment overlap.
+concurrency:
+  group: docs-pages
+  cancel-in-progress: true
 
 jobs:
   build_and_deploy:
@@ -120,7 +128,7 @@ jobs:
       - name: Deploy development version from main branch
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
-          mike deploy --push --update-aliases dev latest
+          bash scripts/deploy_mike_with_retry.sh --update-aliases dev latest
 
           echo "Setting 'latest' as the default version for the site..."
           mike set-default --push latest
@@ -134,7 +142,7 @@ jobs:
           # The release tag (e.g., v0.2.2) is used as the version number
           export MIKE_VERSION=${GITHUB_EVENT_RELEASE_TAG_NAME}
           echo "Deploying docs for version $MIKE_VERSION and setting it as 'latest'..."
-          mike deploy --push --update-aliases $MIKE_VERSION latest
+          bash scripts/deploy_mike_with_retry.sh --update-aliases "$MIKE_VERSION" latest
 
           echo "Setting 'latest' as the default version for the site..."
           mike set-default --push latest
@@ -147,7 +155,7 @@ jobs:
       - name: Manually deploy specific version from main
         if: github.event_name == 'workflow_dispatch'
         run: |
-          mike deploy --push --update-aliases ${{ github.event.inputs.version }} latest
+          bash scripts/deploy_mike_with_retry.sh --update-aliases "${{ github.event.inputs.version }}" latest
 
           echo "Setting 'latest' as the default version for the site..."
           mike set-default --push latest
